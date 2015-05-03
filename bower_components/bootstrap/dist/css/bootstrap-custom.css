@@ -1,6 +1,9 @@
 body {
   font-size: 16px;
 }
+img {
+  max-width: 100%;
+}
 .clearfix:after,
 .headline:after,
 .content-wrap:after {
@@ -871,6 +874,12 @@ a:visited,
   padding: 15px 19px 0;
   color: #ffffff;
 }
+.m_recommend .item .dock-msg .msg a:link,
+.m_recommend .item .dock-msg .msg a:hover,
+.m_recommend .item .dock-msg .msg a:active,
+.m_recommend .item .dock-msg .msg a:visited {
+  color: #ffffff;
+}
 .m_recommend_btm {
   background: #fff;
 }
@@ -1641,7 +1650,8 @@ a:visited,
   }
   .m_summary {
     height: 206px;
-    margin-left: 8px;
+    margin-top: 6px;
+    margin-left: 6px;
     border-left: #808080 8px solid;
     overflow: hidden;
   }
