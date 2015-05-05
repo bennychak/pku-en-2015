@@ -108,12 +108,16 @@ a{cursor:pointer;}
 .msg_tit h1,
 .msg_tit .sub{ text-align:right;}
 .msg_tit h1{}
+.n_content-wrap_single .msg_tit h1,
+.n_content-wrap_single .msg_tit .sub{ text-align:center;}
 
 .msgDetail section{ width:603px; float:left; border-bottom:none}
 .msgDetail section .bor{ display:block}
 .msgDetail aside{ width:339px; overflow:hidden}
 .msgDetail aside .side_bd{ margin-left:7px; border-left:#dcdcdc 1px solid}
 .msgDetail aside .msg_pic{}
+.n_content-wrap_single .msgDetail section{ width:100%}
+.n_content-wrap_single .msgDetail section .con{ padding-left:10%; padding-right:10%}
 
 .msg_pic{ padding-left:28px}
 
@@ -242,6 +246,9 @@ body{}
 .msg_tit .col-xs-50,
 .msgDetail .con .art,
 .msgSlide .con .art{ *width:585px;}
+.n_content-wrap_single .msg_tit .col-xs-50,
+.n_content-wrap_single .msgDetail .con .art,
+.n_content-wrap_single .msgSlide .con .art{ *width:100%;}
 .m_summary{ *height:182px}
 .m_recommend_btm .item{ *width:120px; *height:140px;}
 .main .m_recommend_btm .e_item_5 .bor{ *display:none}
