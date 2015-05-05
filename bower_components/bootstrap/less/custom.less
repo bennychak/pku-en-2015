@@ -387,7 +387,7 @@
 .msg_tit .sub{ margin-top:8px; font-size:.875em}
 .msgDetail section{ padding-top:15px; padding-bottom:15px; line-height:1.5em; font-size:.875em; color:#000; border-bottom:#dcdcdc 1px solid}
 .msgDetail section .con{ position:relative; padding:10px 0}
-.msgDetail section .con img{ height:auto!important}
+.msgDetail section .con img{ display:block; margin:0 auto; height:auto!important}
 .msgDetail section .bor{ display:none; position:absolute; top:0; bottom:0; right:-8px; width:1px; height:100%; font-size:0; overflow:hidden;}
 .msgDetail section .art p{ margin-bottom:20px}
 
@@ -516,12 +516,16 @@ body{}
 .msg_tit h1,
 .msg_tit .sub{ text-align:right;}
 .msg_tit h1{}
+.n_content-wrap_single .msg_tit h1,
+.n_content-wrap_single .msg_tit .sub{ text-align:center;}
 
 .msgDetail section{ width:@main; float:left; border-bottom:none}
 .msgDetail section .bor{ display:block}
 .msgDetail aside{ width:@side; overflow:hidden}
 .msgDetail aside .side_bd{ margin-left:7px; border-left:#dcdcdc 1px solid}
 .msgDetail aside .msg_pic{}
+.n_content-wrap_single .msgDetail section{ width:100%}
+.n_content-wrap_single .msgDetail section .con{ padding-left:10%; padding-right:10%}
 
 .msg_pic{ padding-left:28px}
 

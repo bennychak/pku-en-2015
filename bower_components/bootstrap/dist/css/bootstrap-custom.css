@@ -1274,6 +1274,8 @@ a:visited,
   padding: 10px 0;
 }
 .msgDetail section .con img {
+  display: block;
+  margin: 0 auto;
   height: auto !important;
 }
 .msgDetail section .bor {
@@ -1503,6 +1505,10 @@ a:visited,
   .msg_tit .sub {
     text-align: right;
   }
+  .n_content-wrap_single .msg_tit h1,
+  .n_content-wrap_single .msg_tit .sub {
+    text-align: center;
+  }
   .msgDetail section {
     width: 64%;
     float: left;
@@ -1518,6 +1524,13 @@ a:visited,
   .msgDetail aside .side_bd {
     margin-left: 7px;
     border-left: #dcdcdc 1px solid;
+  }
+  .n_content-wrap_single .msgDetail section {
+    width: 100%;
+  }
+  .n_content-wrap_single .msgDetail section .con {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .msg_pic {
     padding-left: 28px;
